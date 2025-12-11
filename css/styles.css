@@ -1,0 +1,22 @@
+body {
+    font-family: "Inter", Arial, sans-serif;
+}
+
+.hero {
+    height: 70vh;
+    background: url('../assets/images/slide1.jpg') center/cover no-repeat;
+}
+
+.timeline {
+    border-left: 3px solid #0d6efd;
+    padding-left: 20px;
+}
+
+.timeline li {
+    margin-bottom: 20px;
+}
+
+.serviceCard:hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+}
